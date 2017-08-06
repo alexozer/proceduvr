@@ -1,0 +1,23 @@
+{
+  "name": "vr-proc-gen",
+  "description": "3D Procedural Generation in Virtual Reality",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --port 8000 --env.debug",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "html-webpack-plugin": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "three": "latest",
+    "webvr-ui": "latest"
+  }
+}

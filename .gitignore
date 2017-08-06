@@ -1,0 +1,15 @@
+/*
+/*/
+
+!.editorconfig
+!.eslintrc.json
+!.gitattributes
+!.gitignore
+!README.md
+!/src
+!/package.json
+!/webpack.config.js
+
+
+.DS_Store
+Thumbs.db
